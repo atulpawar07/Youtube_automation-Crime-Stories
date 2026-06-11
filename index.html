@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>History Crime Shorts Studio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">History Crime Shorts Studio</p>
+            <h1>60-second mystery-crime video builder</h1>
+          </div>
+          <div class="status-pill" id="durationPill">10 x 6s</div>
+        </header>
+
+        <section class="control-grid">
+          <form class="panel controls" id="generatorForm">
+            <div class="field">
+              <label for="caseSelect">Case</label>
+              <select id="caseSelect" name="caseSelect"></select>
+            </div>
+
+            <div class="field">
+              <label for="customCase">Custom case</label>
+              <input id="customCase" name="customCase" type="text" placeholder="Example: The Black Dahlia" />
+            </div>
+
+            <div class="field two-col">
+              <div>
+                <label for="toneSelect">Tone</label>
+                <select id="toneSelect" name="toneSelect">
+                  <option value="cold">Cold mystery</option>
+                  <option value="urgent">Urgent thriller</option>
+                  <option value="documentary">Documentary</option>
+                </select>
+              </div>
+              <div>
+                <label for="styleSelect">Visual style</label>
+                <select id="styleSelect" name="styleSelect">
+                  <option value="noir">Noir animation</option>
+                  <option value="archive">Archive montage</option>
+                  <option value="map">Map + evidence board</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="hookInput">Hook angle</label>
+              <input id="hookInput" name="hookInput" type="text" placeholder="The clue everyone missed" />
+            </div>
+
+            <div class="button-grid">
+              <button class="primary-btn" type="submit">Generate short</button>
+              <button class="secondary-btn" id="researchButton" type="button">AI research</button>
+              <button class="secondary-btn" id="renderButton" type="button">Create video</button>
+            </div>
+            <p class="helper-text" id="serverStatus">Open with the local server to enable AI, TTS, images, and video rendering.</p>
+          </form>
+
+          <aside class="panel scorecard">
+            <div>
+              <span class="metric-label">Total length</span>
+              <strong>60s</strong>
+            </div>
+            <div>
+              <span class="metric-label">Sections</span>
+              <strong>10</strong>
+            </div>
+            <div>
+              <span class="metric-label">Per section</span>
+              <strong>6s</strong>
+            </div>
+            <div>
+              <span class="metric-label">Output</span>
+              <strong>MP4 ready</strong>
+            </div>
+          </aside>
+        </section>
+
+        <section class="panel automation-panel" id="automationPanel">
+          <div>
+            <p class="eyebrow">Automation</p>
+            <h2>Research, fact-check, narrate, illustrate, assemble</h2>
+          </div>
+          <div class="automation-log" id="automationLog"></div>
+        </section>
+
+        <section class="panel output-panel">
+          <div class="section-toolbar">
+            <div>
+              <p class="eyebrow">Generated Plan</p>
+              <h2 id="projectTitle">Choose a case and generate</h2>
+            </div>
+            <div class="button-row">
+              <button class="secondary-btn" id="copyMarkdown" type="button">Copy markdown</button>
+              <button class="secondary-btn" id="downloadJson" type="button">Download JSON</button>
+              <button class="secondary-btn" id="downloadCsv" type="button">Download CSV</button>
+            </div>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </section>
+      </section>
+    </main>
+
+    <template id="segmentTemplate">
+      <article class="segment-card">
+        <div class="timecode"></div>
+        <div class="segment-body">
+          <div class="segment-head">
+            <h3></h3>
+            <span></span>
+          </div>
+          <p class="voiceover"></p>
+          <div class="segment-meta">
+            <p><b>Visual</b><span class="visual"></span></p>
+            <p><b>Caption</b><span class="caption"></span></p>
+            <p><b>Audio</b><span class="audio"></span></p>
+          </div>
+          <div class="fact-box"></div>
+        </div>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>

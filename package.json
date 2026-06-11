@@ -1,0 +1,13 @@
+{
+  "name": "history-crime-shorts-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-assisted one-minute history crime Shorts generator with research, TTS, images, and ffmpeg assembly.",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check script.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
