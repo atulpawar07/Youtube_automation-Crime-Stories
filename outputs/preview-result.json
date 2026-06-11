@@ -1,0 +1,18 @@
+{
+    "message":  "Preview narration, image, and six-second clip are ready.",
+    "job":  "1780397512799-jack-the-ripper-preview",
+    "files":  [
+                  {
+                      "label":  "Preview MP4",
+                      "url":  "/outputs/1780397512799-jack-the-ripper-preview/preview.mp4"
+                  },
+                  {
+                      "label":  "Preview image",
+                      "url":  "/outputs/1780397512799-jack-the-ripper-preview/preview.png"
+                  },
+                  {
+                      "label":  "Preview audio",
+                      "url":  "/outputs/1780397512799-jack-the-ripper-preview/preview.mp3"
+                  }
+              ]
+}

@@ -1,0 +1,14 @@
+{
+    "message":  "Assets and final Shorts video are ready.",
+    "job":  "1780397767544-jack-the-ripper",
+    "files":  [
+                  {
+                      "label":  "Final MP4",
+                      "url":  "/outputs/1780397767544-jack-the-ripper/final-short.mp4"
+                  },
+                  {
+                      "label":  "Plan JSON",
+                      "url":  "/outputs/1780397767544-jack-the-ripper/plan.json"
+                  }
+              ]
+}

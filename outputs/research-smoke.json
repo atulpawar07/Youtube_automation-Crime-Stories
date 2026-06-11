@@ -1,0 +1,188 @@
+{
+    "plan":  {
+                 "durationSeconds":  60,
+                 "case":  {
+                              "title":  "Jack the Ripper",
+                              "year":  "1888",
+                              "location":  "Whitechapel, London",
+                              "mystery":  "a killer vanished behind letters, fog, and split police jurisdictions",
+                              "clue":  "the infamous letters were likely hoaxes that distracted police and press",
+                              "twist":  "the most famous suspect lists may rest on myths and media hype",
+                              "caution":  "Avoid naming one person as the killer; the case is unsolved."
+                          },
+                 "sections":  10,
+                 "title":  "Jack the Ripper: 60-second mystery short",
+                 "segments":  [
+                                  {
+                                      "section":  1,
+                                      "time":  "0s-6s",
+                                      "label":  "Hook",
+                                      "title":  "Fog and fear",
+                                      "voiceover":  "Whitechapel, 1888. Five women murdered. The killer? Never found.",
+                                      "visual":  "Foggy alley, map pin on Whitechapel; sepia streetlamps flicker.",
+                                      "caption":  "Fog. Fear.",
+                                      "audio":  "Low pulse drone",
+                                      "factCheck":  {
+                                                        "status":  "verified",
+                                                        "note":  "Murders occurred in Whitechapel, 1888; case remains unsolved. (Britannica; National Archives)"
+                                                    }
+                                  },
+                                  {
+                                      "section":  2,
+                                      "time":  "6s-12s",
+                                      "label":  "Timeline",
+                                      "title":  "Autumn of terror",
+                                      "voiceover":  "From August to November, fear gripped London’s East End as attacks escalated.",
+                                      "visual":  "Calendar pages flip: Aug–Nov 1888; East End streets dissolve behind.",
+                                      "caption":  "East End panic",
+                                      "audio":  "Ticking clock + distant hoofbeats",
+                                      "factCheck":  {
+                                                        "status":  "verified",
+                                                        "note":  "Key murders span Aug–Nov 1888. (Whitechapel murders timeline)"
+                                                    }
+                                  },
+                                  {
+                                      "section":  3,
+                                      "time":  "12s-18s",
+                                      "label":  "Jurisdictions",
+                                      "title":  "A split hunt",
+                                      "voiceover":  "Two forces—Met and City police—split jurisdiction, complicating the hunt.",
+                                      "visual":  "Animated boundary line; MET vs CITY badges on either side.",
+                                      "caption":  "Split chase",
+                                      "audio":  "Subtle percussive tension",
+                                      "factCheck":  {
+                                                        "status":  "verified",
+                                                        "note":  "Crimes fell under both Metropolitan Police and City of London Police. (National Archives; Wikipedia)"
+                                                    }
+                                  },
+                                  {
+                                      "section":  4,
+                                      "time":  "18s-24s",
+                                      "label":  "Letters",
+                                      "title":  "Ink and misdirection",
+                                      "voiceover":  "Newspapers splashed \u0027Dear Boss\u0027 and \u0027From Hell.\u0027 Most letters were likely hoaxes.",
+                                      "visual":  "Close-ups of facsimile headlines; red wax seal; letters blur out.",
+                                      "caption":  "Hoax letters?",
+                                      "audio":  "Paper rustle + low thud",
+                                      "factCheck":  {
+                                                        "status":  "verified",
+                                                        "note":  "Historians largely agree most Ripper letters were hoaxes. (National Archives; Casebook)"
+                                                    }
+                                  },
+                                  {
+                                      "section":  5,
+                                      "time":  "24s-30s",
+                                      "label":  "Graffito",
+                                      "title":  "Clue erased",
+                                      "voiceover":  "A chalk graffito near a torn apron piece was erased by Commissioner Warren.",
+                                      "visual":  "Brick wall text fades as a hand wipes chalk; alley sign: Goulston Street.",
+                                      "caption":  "Erased clue",
+                                      "audio":  "Chalk scrape, quick hush",
+                                      "factCheck":  {
+                                                        "status":  "verified",
+                                                        "note":  "Goulston Street graffito erased on Warren’s order after apron piece found nearby. (Goulston Street graffito page; archives)"
+                                                    }
+                                  },
+                                  {
+                                      "section":  6,
+                                      "time":  "30s-36s",
+                                      "label":  "Victims list",
+                                      "title":  "‘Canonical five’",
+                                      "voiceover":  "The \u0027canonical five\u0027 label came later; which murders belong remains debated.",
+                                      "visual":  "Five silhouettes; subtle text: Nichols, Chapman, Stride, Eddowes, Kelly.",
+                                      "caption":  "Debated list",
+                                      "audio":  "Cold drone swell",
+                                      "factCheck":  {
+                                                        "status":  "disputed",
+                                                        "note":  "‘Canonical five’ is a retrospective construct; inclusion is debated. (National Archives; Britannica)"
+                                                    }
+                                  },
+                                  {
+                                      "section":  7,
+                                      "time":  "36s-42s",
+                                      "label":  "Forensics",
+                                      "title":  "Tools of the time",
+                                      "voiceover":  "No fingerprints or DNA; crowds often disturbed scenes before proper cordons.",
+                                      "visual":  "Victorian crowd illustration overlay; no modern tape, officers hold back onlookers.",
+                                      "caption":  "No forensics",
+                                      "audio":  "Thin hiss + muted bell",
+                                      "factCheck":  {
+                                                        "status":  "verified",
+                                                        "note":  "Forensics then lacked fingerprints/DNA; scene control was limited. (Britannica; policing histories)"
+                                                    }
+                                  },
+                                  {
+                                      "section":  8,
+                                      "time":  "42s-48s",
+                                      "label":  "Media",
+                                      "title":  "Panic sells",
+                                      "voiceover":  "Sensational papers fueled panic; some argue coverage helped the killer disappear.",
+                                      "visual":  "Rotating broadsheets; headlines enlarge, then fade to black.",
+                                      "caption":  "Media frenzy",
+                                      "audio":  "Crowd murmur + cymbal swell",
+                                      "factCheck":  {
+                                                        "status":  "disputed",
+                                                        "note":  "Press sensationalism is well documented; effect on escape is speculative. (National Archives; secondary analyses)"
+                                                    }
+                                  },
+                                  {
+                                      "section":  9,
+                                      "time":  "48s-54s",
+                                      "label":  "Suspects",
+                                      "title":  "Myths multiply",
+                                      "voiceover":  "Famous suspect lists lean on myths; many \u0027confession\u0027 letters were fakes.",
+                                      "visual":  "Suspect board dissolves; crossed-out letters fall away.",
+                                      "caption":  "Suspects? Myths.",
+                                      "audio":  "Bass sting",
+                                      "factCheck":  {
+                                                        "status":  "partially verified",
+                                                        "note":  "Fake letters are well attested; quality of suspect lists varies widely. (Casebook; National Archives)"
+                                                    }
+                                  },
+                                  {
+                                      "section":  10,
+                                      "time":  "54s-60s",
+                                      "label":  "Close",
+                                      "title":  "Enduring riddle",
+                                      "voiceover":  "Unsolved to this day. Which clue misled us—letters, graffito, or chaos?",
+                                      "visual":  "Night alley fades; question cards: Letters? Graffito? Chaos?",
+                                      "caption":  "Still unsolved",
+                                      "audio":  "Final low hit, fade out",
+                                      "factCheck":  {
+                                                        "status":  "verified",
+                                                        "note":  "Case remains officially unsolved. (Britannica; National Archives)"
+                                                    }
+                                  }
+                              ],
+                 "style":  "noir",
+                 "tone":  "cold",
+                 "secondsPerSection":  6,
+                 "sources":  [
+                                 {
+                                     "title":  "The National Archives (UK) – Jack the Ripper",
+                                     "url":  "https://www.nationalarchives.gov.uk/education/resources/jack-the-ripper/",
+                                     "note":  "Official records overview; letters generally considered hoaxes; policing context and timeline."
+                                 },
+                                 {
+                                     "title":  "Encyclopaedia Britannica – Jack the Ripper",
+                                     "url":  "https://www.britannica.com/biography/Jack-the-Ripper",
+                                     "note":  "Summary of the murders, victims, and the case remaining unsolved."
+                                 },
+                                 {
+                                     "title":  "Casebook: Jack the Ripper – The Letters",
+                                     "url":  "https://www.casebook.org/ripper_letters/",
+                                     "note":  "Documents the Ripper correspondence; scholarly consensus that most letters were hoaxes."
+                                 },
+                                 {
+                                     "title":  "Wikipedia – Whitechapel murders",
+                                     "url":  "https://en.wikipedia.org/wiki/Whitechapel_murders",
+                                     "note":  "Useful consolidated timeline and noting Met vs City police jurisdictions; cross-check with other sources."
+                                 },
+                                 {
+                                     "title":  "Wikipedia – Goulston Street graffito",
+                                     "url":  "https://en.wikipedia.org/wiki/Goulston_Street_graffito",
+                                     "note":  "Details on the graffito and Commissioner Warren’s erasure; corroborated by archival sources."
+                                 }
+                             ]
+             }
+}
